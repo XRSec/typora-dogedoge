@@ -65,8 +65,9 @@ def upload_img():
 
         if upload_result.json()["success"]:
             print(upload_result.json()["data"]["o_url"])
+            if "http://" or "https://" in sys.argv[i]:
+                os.remove(file_path)
             os.remove(sys.argv[i])
-            os.remove(file_path)
         else:
             print("Get upload Image/Json url error")
 
