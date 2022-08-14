@@ -41,4 +41,4 @@
 
 ### 后续
 
-联系方式：troy@zygd.site
+联系方式：Jalapeno1868@outlook.com
